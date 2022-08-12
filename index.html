@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Responsive Grocery Store Website Design</title>
+    <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&" >
+    <!----------------------css file link------------------------------------------------------->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+ <!------------------------------------------ header section starts--------------------------------------------------------> 
+ <header class="header">
+<a href="#" class="logo"><i class="fas fa-shopping-basket"></i>Groco</a>
+<nav class="navbar">
+    <a href="#home">Home</a>
+    <a href="#features">Features</a>
+    <a href="#products">Products</a>
+    <a href="#categories">Categories</a>
+    <a href="#blogs">Blogs</a>
+</nav>
+<div class="icons">
+<div  class="fas fa-bars" id="menu-btn"></div>
+<div class="fas fa-search" id="search-btn"></div>
+<div class="fas fa-shopping-cart" id="cart-btn"><span class="cart-value "> 0 </span></div>
+<div  class="fas fa-user" id="login-btn"></div>
+</div>
+<form action="" class="search-form">
+    <input type="search" id="search-box" placeholder="search here...">
+    <label for="search-box" class="fas fa-search"></label>
+</form>
+<div class="shopping-cart">
+    
+    <div class="shop-container">
+
+    </div>
+   
+    <div class="total">total : $ 0</div> 
+    <a href="#" class="btn">Checkout</a>
+</div>
+</div>
+<form action="" class="login-form">
+    <h3>login now</h3>
+    <input type="email" placeholder="your email" class="box">
+    <input type="password" placeholder="your password" class="box">
+    <input type="submit" value="login now" class="btn">
+</form>
+ </header>
+<!----------------------------------- header section ends ------------------------------------------------------>
+<!------------------------------------ home section starts --------------------------------------------------->
+<section class="home" id="home">
+    <div class="content">
+        <h3>fresh and <span>organic</span> products for your</h3>
+        <a href="#" class="btn">shop now</a>
+    </div>
+    </section>
+    <!--------------------------------------- home section ends ---------------------------------------------->
+ 
+    <!-------------------------------- banner-container section starts -------------------------------------->
+    <section class="banner-container">
+        <div class="banner">
+            <img src="images/banner-2.jpg" alt="">
+            <div class="content2">
+                <h3>Special offer</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">Check out</a>
+            </div>
+        </div>
+        <div class="banner">
+            <img src="images/banner-1.jpg" alt="">
+            <div class="content1">
+                <h3>Limited offer</h3>
+                <p>upto 50% off</p>
+                <a href="#" class="btn">Check out</a>
+            </div>
+        </div>
+</section>
+<!-- banner-container section ends -->
+      <!-- features section starts -->
+      <section class="features" id="features">
+        <h1 class="heading"> our <span>features</span></h1>
+        <div class="box-container">
+            <div class="box">
+              <img src="images/features-img1.png" alt="">
+              <h3>fresh and organic</h3>
+              <p>Most of our produce items are harvested within 48 hours of delivery and our bakery products are always freshly baked every Wednesday.</p>              <a href="#" class="btn">read more</a>
+            </div>
+            <div class="box">
+                <img src="images/features-img2.png" alt="">
+                <h3>free delivery</h3>
+                <p>£3 deliveries on Wednesday's and free on orders £60+</p>
+                <a href="#" class="btn">read more</a>
+              </div>
+            <div class="box">
+                <img src="images/features-img3.png" alt="">
+                <h3>easy payments</h3>
+                <p>Satisfaction guarantee on all our products</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+        
+        
+        </section>
+          <!---------------------------------------- features section ends ---------------------------------------->
+          <!---------------------------------------- products section starts ---------------------------------------->
+<section class="products" id="products">
+    <h1 class="heading"> our <span>products</span></h1>
+    <div class="product-container">
+        <div class="cart-container">
+            <div class="cart-item">
+                <img class="cart-item-image" src="images/watermelon.jpg" width="20%" alt="">
+                <h3 class="cart-item-title">watermelon</h3>
+                <div class="cart-item-price">$3.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn btn-cart">add to cart</a>
+            </div>
+            <div class="cart-item">
+                <img class="cart-item-image" src="images/onions.jpg" width="20%" alt="">
+                <h3 class="cart-item-title">onion</h3>
+                <div class="cart-item-price">$2.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn btn-cart">add to cart</a>
+            </div>
+            <div class="cart-item">
+                <img class="cart-item-image" src="images/melon.jpg" width="20%" alt="">
+                <h3 class="cart-item-title">melon</h3>
+                <div class="cart-item-price">$4.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn btn-cart">add to cart</a>
+            </div>
+            <div class="cart-item">
+                <img class="cart-item-image" src="images/orange.jpg" width="20%" alt="">
+                <h3 class="cart-item-title">fresh orange</h3>
+                <div class="cart-item-price">$2.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn btn-cart">add to cart</a>
+            </div>
+            <div class="cart-item">
+                <img class="cart-item-image" src="images/banana.jpg" width="20%" alt="">
+                <h3 class="cart-item-title">banana</h3>
+                <div class="cart-item-price">$4.50/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn btn-cart">add to cart</a>
+            </div>
+            <div class="cart-item">
+                <img class="cart-item-image" src="images/apple.jpg" width="20%" alt="">
+                <h3 class="cart-item-title">fresh apple</h3>
+                <div class="cart-item-price">$2.50/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn btn-cart">add to cart</a>
+            </div>
+            <div class="cart-item">
+                <img class="cart-item-image" src="images/cabbage.jpg" width="20%" alt="">
+                <h3 class="cart-item-title">cabbage</h3>
+                <div class="cart-item-price">$1.50/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn btn-cart">add to cart</a>
+            </div>
+            <div class="cart-item">
+                <img class="cart-item-image" src="images/potatoes.jpg" width="20%" alt="">
+                <h3 class="cart-item-title">fresh potato</h3>
+                <div class="cart-item-price">$1.50/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn btn-cart">add to cart</a>
+            </div>
+            <div class="cart-item">
+                <img class="cart-item-image" src="images/fresh avocado.jpg" width="20%" alt="">
+                <h3 class="cart-item-title">fresh avocado</h3>
+                <div class="cart-item-price">$6.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn btn-cart">add to cart</a>
+            </div>
+            <div class="cart-item">
+                <img class="cart-item-image" src="images/fresh tomato.jpg" width="20%" alt="">
+                <h3 class="cart-item-title">fresh tomato</h3>
+                <div class="cart-item-price">1.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn btn-cart">add to cart</a>
+            </div>
+            <div class="cart-item">
+                <img class="cart-item-image" src="images/pepper.jpg" width="20%" alt="">
+                <h3 class="cart-item-title">fresh pepper</h3>
+                <div class="cart-item-price">1.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn btn-cart">add to cart</a>
+            </div>
+            <div class="cart-item">
+                <img class="cart-item-image" src="images/carrots.jpg" width="20%" alt="">
+                <h3 class="cart-item-title">fresh carrot</h3>
+                <div class="cart-item-price">1.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn btn-cart">add to cart</a>
+            </div>
+        </div>
+    </div>
+
+
+</section>
+           <!--------------------------------products section ends ------------------------------------------->
+           <!--------------------------- categories section starts ------------------------------------------->
+<section class="categories" id="categories">
+    <h1 class="heading"> product <span>categories</span></h1>
+    <div class="box-container">
+        <div class="box">
+<img src="images/vegetables.jpg" alt="">
+<h3>vegetables</h3>
+<p></p>
+<a href="#" class="btn">shop now</a>
+        </div>
+        <div class="box">
+            <img src="images/fresh-fruits.jpg" alt="">
+            <h3>fresh fruits</h3>
+            <p></p>
+            <a href="#" class="btn">shop now</a>
+                    </div>
+                    <div class="box">
+                        <img src="images/milk-products.jpg" alt="">
+                        <h3>dairy products</h3>
+                        <p></p>
+                        <a href="#" class="btn">shop now</a>
+                    </div>
+                    <div class="box">
+                        <img src="images/fresh-meat.jpg" alt="">
+                        <h3>fresh meat</h3>
+                        <p></p>
+                        <a href="#" class="btn">shop now</a>
+                    </div>
+                            </div>
+</section>
+            <!------------------------------------- categories section ends------------------------------------>
+            <!-------------------------------------- blogs section starts -------------------------------------->
+            <section class="blogs" id="blogs">
+                <h1 class="heading"> our <span>blogs</span></h1>
+                <div class="box-container">
+                    <div class="box">
+                        <img src="images/blog1.jpg" alt="">
+                        <div class="content">
+                            <div class="icons">
+                            <a href="#"><i class="fas fa-user"></i> by user</a>
+                            <a href="#"><i class="fas fa-calendar"> 6st may.2020</i></a>
+                            </div>
+                        
+                        <h3>HOW BUYING ORGANIC CAN HELP YOU AND THE WORLD AROUND YOU</h3>
+                        <p>With the large quantity of chemical pesticides that are sprayed onto crops nowadays, organic food has gone on to become a real hit with people of all ages. Organic farmers pride themselves on working with nature and not against it. That means no artificial pesticides, no genetically-modified ingredients, no antibiotics and sustainable use of the land.
+                        </p>
+            <a href="#" class="btn">read more</a>
+                    </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/blog2.jpg" alt="">
+                        <div class="content">
+                            <div class="icons">
+                            <a href="#"><i class="fas fa-user"></i> by user</a>
+                            <a href="#"><i class="fas fa-calendar"> 3st may.2020</i></a>
+                            </div>
+                        
+                        <h3>TEN, NOT FIVE, FRUIT AND VEGETABLE PORTIONS A DAY MAKES YOU LIVE LONGER, RESEARCH SHOWS</h3>
+                        <p> An international study showed that consuming 800g of fruit or vegetables a day could help stave off heart problems and cancer.
+                        </p>
+            <a href="#" class="btn">read more</a>
+                    </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/blog3.jpg" alt="">
+                        <div class="content">
+                            <div class="icons">
+                            <a href="#"><i class="fas fa-user"></i> by user</a>
+                            <a href="#"><i class="fas fa-calendar"> 5st sep.2020 </i></a>
+                            </div>
+                        
+                        <h3>NEW STUDY SHOWS HOW QUICKLY ORGANIC FOOD CAN GET RID OF PESTICIDES IN BODY</h3>
+                        <p> Did you know that a lot of the food is grown with pesticides? Did you ever want to be free of them so you could live a healthier life? Well, organic food could be the answer, according to a new study published in August 2020 by renowned researchers Science Direct. The report concluded that levels
+                        </p>
+            <a href="#" class="btn">read more</a>
+                    </div>
+                    </div>
+                </div>
+
+            </section>
+             <!--------------------------------- blogs section ends ------------------------------------------------->
+              <!---------------------------------- footer section starts- ------------------------------------------> 
+              <section class="footer">
+            <div class="box-container">
+            <div class="box">
+                <h3> groco <i class="fas fa-shopping-basket"></i> </h3>
+                <p>We have over 200 products that we expand regularly according to your needs and seasonal availability. We are happy to go out of our way to find the product you need.</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+            <div class="box">
+                <h3> contact info </h3>
+                    <a href="#"class="links"><i class="fas fa-phone"></i> +21625634895 </a>
+                    <a href="#" class="links"> <i class="fas fa-envelope"></i>groco@gmail.com</a>
+                    <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> 60 City Mill Lane</a>
+
+                </div>
+                <div class="box">
+                    <h3> quick links </h3>
+                        <a href="#"class="links"><i class="fas fa-arrow-right"></i> home </a>
+                        <a href="#"class="links"><i class="fas fa-arrow-right"></i> features </a>
+                        <a href="#"class="links"><i class="fas fa-arrow-right"></i> products </a>
+                        <a href="#"class="links"><i class="fas fa-arrow-right"></i> categories </a>
+                        <a href="#"class="links"><i class="fas fa-arrow-right"></i> review </a>
+                        <a href="#"class="links"><i class="fas fa-arrow-right"></i> blogs </a>
+                    </div>
+                    <div class="box">
+                        <h3>newsletter</h3>
+                        <p>subscribe for latest updates</p>
+                       <input type="email" class="email" placeholder="Your email address" >
+                      <input type="submit" value="subscribe" class="btn">
+                        </div>
+                    </div>
+        
+              </section>
+              <!---------------------------------- footer section ends------------------------------------------------> 
+              <!------------------------------------ js file link---------------------------------------------------------------->
+    <script src="store.js"></script>
+</body>
+</html>
